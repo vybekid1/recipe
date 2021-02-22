@@ -1,0 +1,36 @@
+
+pre{
+  margin-left:30px;
+  margin-right:150px;
+  background-color:#FFFFA8;
+  font-family: monospace;
+  font-style: italic;
+  font-size:medium;
+  background-size:fit-content;
+}
+body{
+  background-image: url("silverware.jpg");
+}
+h1{
+  text-align: center;
+  background-color:rgb(240, 240,240);
+  background-size: 70%;
+  text-decoration:underline;
+  color:rgb(164,164, 0);
+  font-size: 22pt;
+}
+h3{
+  background-color:rgb(240, 240,240);
+  text-decoration:underline;
+  color:rgb(164,164, 0);
+  font-family:'Lucida Sans Unicode', Helvetica, Arial,;
+  font-size: 18pt;
+
+}
+abbr{
+  text-decoration: none;
+}
+.copyright{
+  background: none;
+  font-style: normal;
+}
