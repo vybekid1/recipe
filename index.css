@@ -1,0 +1,182 @@
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-image: url("20160608.jpg");
+    background: blur;
+}
+h3{
+    text-decoration: underline;
+    color: rgb(21, 71, 233);
+    font-family: 'SF Pro Text','SF Pro Icons,AOS Icons','Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+         a[href="pie.html"]{
+         text-align: center;
+         text-decoration: none;
+     }
+     h4{
+         background-color:none;
+         height: fit-content;
+         width: fit-content;
+         text-align: center;
+         margin:auto;
+         border-radius: 5px;
+         color: rgb(0, 0, 0);
+         content: normal;
+         text-align: center;
+         direction: flex;
+         flex-direction: row;
+         font-family: 'SF Pro Text','SF Pro Icons,AOS Icons','Helvetica Neue',Helvetica,Arial,sans-serif;
+     }
+     .menu{
+         background-repeat: no-repeat;
+         background-size:100%;
+         border-radius: 5px;
+         text-align: center;
+         border-spacing: 50px;
+         border-left-width: auto;
+         padding-bottom: 20px;
+         padding: auto;
+         background-image: url("table-setup-outdoor.jpg");
+    margin: auto;
+     }
+     img{
+         width: 150px;
+         float: left;
+         border-radius: 200px;
+         transition: 20ms;
+         transform: rotateY(60);
+     }
+     .menus{
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+        color: rgb(34, 0, 228);
+        font-weight: 500;
+        font-size: 1rem;
+        padding-left: 70px;
+        background: fixed;
+        background-size: auto;
+    }
+     p{
+         color: rgb(255, 255, 255);
+         font-family: 'SF Pro Text','SF Pro Icons,AOS Icons','Helvetica Neue',Helvetica,Arial,sans-serif,'global san sans-serif';
+         font: weight 900px;
+         font-size: 1.4rem;
+         font-style: bold;
+     }
+   
+     a[href="mailto:vybekid1@gmail.com"],[href="https://twitter.com/vybekid1"],[href="https://facebook.com/vybekid1"],[href="https://instagram.com/vybekid1"]{
+        font-size: 1.8rem;
+        color: rgb(94, 114, 3);
+        text-decoration: none;
+    }
+     a[href="https://instagram.com/vybekid1"]:hover{
+         color: rgba(224, 26, 125, 0.945);
+    }
+    a[href="https://facebook.com/vybekid1"]:hover{
+        color: rgb(0, 38, 255);
+    }
+    a[href="https://twitter.com/vybekid1"]:hover{
+        color: rgb(35, 130, 255);
+    }
+    a[href="mailto:vybekid1@gmail.com"]:hover{
+        color: rgb(5, 69, 151);
+    }
+    [href="tel:254703326838"]:hover{
+        color: rgb(26, 177, 12);
+        font-size: 1rem;
+        mix-blend-mode:difference;
+    filter: invert(100%);
+    }
+    [href="index.html"]{
+        color: rgb(231, 159, 4);
+        font-size: 1rem;
+        text-decoration: none;
+    }
+     footer{
+         background-color:none;
+         height: fit-content;
+         width: fit-content;
+         text-align: center;
+         margin:auto;
+         border-radius: 5px;
+         color: rgb(0, 0, 0);
+         content: normal;
+         text-align: center;
+         direction: flex;
+         flex-direction: row;
+     }
+     strong{
+         color: rgb(27, 0, 90);
+     }
+     h1{
+         align-items: center;
+     }
+     logo a {
+        margin : 5px;
+        text-decoration: none;
+        color:rgb(219 , 32 , 63 ) ;
+        font-size: 35px;
+        font-weight : 600 ; 
+        position:fixed;
+        width: 100%;
+    font-family:helvetica,sans-serif;
+   }
+     .logo a span{
+        color : rgb(0, 134, 0) ; 
+        text-decoration : none ;
+        font-weight: bold;
+            display: block;
+            font-size: xx-large;
+            display : inline-block ; 
+            background:none;
+            padding : 5px 15px ; 
+            border-radius : 6px ;
+            border :2px solid #1d0052;
+    } 
+     .hmetxt { font-size : 15pt ;
+        text-align : center ;
+        margin : auto e auto 30px ; 
+        }
+        .logo span:hover{
+            color: rgb(17, 55, 223);
+            font-weight: bold;
+            font-size: xx-large;
+            display : inline-block ; 
+            background: linear-gradient(to left, #14be04, #1d0052);
+            padding : 5px 15px ; 
+            border-radius : 6px ;
+            border : 2px solid rgb(82, 87, 128) ;
+        }
+    .hmetxt a{
+        text-decoration : none ; 
+        display : inline-block ; 
+        background:steelblue;
+        color: orangered;
+        font-size : 1rem;
+        padding : 12px 35px ; 
+        border-radius : 6px ;
+        border : 2px solid rgb(0, 26, 255) ;
+        margin-top : 20px ;
+     }
+     .hmetxt a:hover {
+         color :Llorange;
+         background: linear-gradient(to left, #007db5, #ff8a00);
+        transition : all 0.3s eases
+        }
+        /**
+ * WRAPPER
+ * Sets a max width, adds a consistent gutter and horizontally
+ * centers the contents
+ */
+.wrapper {
+    width: 90vw;
+    width: clamp(16rem, 90vw, 70rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+  }
