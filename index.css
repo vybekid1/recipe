@@ -36,6 +36,7 @@ h3{
          border-left-width: auto;
          padding-bottom: 20px;
          padding: auto;
+         flex-wrap:wrap;
          background-image: url("table-setup-outdoor.jpg");
     margin: auto;
      }
