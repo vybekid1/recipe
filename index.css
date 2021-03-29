@@ -52,6 +52,7 @@ h3{
         border-radius: 5px;
         text-align: center;
         margin: auto;
+        flex-wrap:wrap;
         color: rgb(34, 0, 228);
         font-weight: 500;
         font-size: 1rem;
